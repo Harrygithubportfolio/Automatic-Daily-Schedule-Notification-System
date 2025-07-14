@@ -56,7 +56,7 @@ Your Devices (iPhone/Mac/etc)
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/yourusername/automated-calendar-notifications.git
+   git clone https://github.com/Harrygithubportfolio/Automatic-Daily-Schedule-Notification-System.git
    cd automated-calendar-notifications
    ```
 
