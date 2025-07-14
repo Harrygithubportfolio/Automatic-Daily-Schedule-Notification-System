@@ -1,0 +1,22 @@
+# Python dependencies for local setup scripts
+# These are only needed for running the setup scripts locally
+# The AWS Lambda function uses built-in libraries only
+
+# Google Calendar API
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+google-api-python-client==2.108.0
+
+# HTTP requests (for testing webhook endpoints)
+requests==2.31.0
+
+# Note: The following are NOT needed as they're built into Python 3.9+
+# - json (built-in)
+# - base64 (built-in)
+# - datetime (built-in)
+# - os (built-in)
+# - zoneinfo (built-in in Python 3.9+)
+
+# AWS SDK is automatically available in Lambda environment
+# - boto3 (provided by AWS Lambda)
